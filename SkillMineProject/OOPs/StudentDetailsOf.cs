@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SkillMineProject.OOPs
 {
-    class StudentDetails
+    class StudentDetailsOf
     {
         int id;
         string name;
@@ -22,7 +22,7 @@ namespace SkillMineProject.OOPs
         }
         static void Main(string[] args)
         {
-            StudentDetails stud = new StudentDetails();
+            StudentDetailsOf stud = new StudentDetailsOf();
             stud.AcceptDetails(1434, "Roha", 73.26);
             stud.display();
         }

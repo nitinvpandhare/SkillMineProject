@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SkillMineProject.OOPs
 {
-    class Employee
+    class Employee0
     {
         string ename;
         string ecompanyName;
@@ -14,7 +14,7 @@ namespace SkillMineProject.OOPs
         
         static void Main(string[] args)
         {
-            Employee emp = new Employee();
+            Employee0 emp = new Employee0();
             emp.ename = "CodeLogic";
             emp.ecompanyName = "SkillMine";
             emp.eid = 1434;

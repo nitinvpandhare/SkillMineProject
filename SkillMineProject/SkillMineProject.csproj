@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>SkillMineProject.Array.EvenNoOfEle</StartupObject>
+	  <StartupObject>SkillMineProject.InterfacesCollections.CustomException</StartupObject>
   </PropertyGroup>
 
 </Project>

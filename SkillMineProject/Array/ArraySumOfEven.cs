@@ -169,6 +169,34 @@ namespace SkillMineProject.Array
     }
 
     //Que.6 write code to creat char  type of arra and replace element by its alternate charactor .
+    class ReplaceEle
+    {
+        //Method
+        public void ReplaceArryEle(char[] ch)
+        {
+            for(int i = 0; i < ch.Length; i++)
+            {
+                if (ch[i] == 'y' || ch[i] == 'Y' || ch[i] == 'z' || ch[i] == 'Z')
+                {
+                    ch[i] = (char)(ch[i] - 24);
+                }
+                else
+                {
+                    ch[i] = (char)(ch[i] + 2);
+                }
+                Console.WriteLine("--------" + string.Join(" ", ch));
+            }
+        }
+        static void Main(string[] args)
+        {
+            char[] arr = { 'a', 'K', 'w', 'R', 'i', 'T', 'f' };
+            char ch = Convert.ToChar(Console.ReadLine());
+
+            ReplaceEle charobj = new ReplaceEle();
+            charobj.ReplaceArryEle(arr);
+            Console.WriteLine();
+        }
+    }
 
     //Que.8 write code to perform the sum of array element.
     class ArraySum

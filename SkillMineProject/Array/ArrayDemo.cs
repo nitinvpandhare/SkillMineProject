@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SkillMineProject.Array
 {
@@ -111,6 +109,36 @@ namespace SkillMineProject.Array
             foreach(int element in myArray)
             {
                 Console.WriteLine(element);
+            }
+        }
+    }
+
+    // even no
+    class EvenNumber
+    {
+        static void Main(string[] args)
+        {
+            int[] num= new int[6];
+            for(int i = 0; i < 5; i++)
+            {
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            for(int i = 0; i < 5; i++)
+            {
+                bool flag = true;
+                for(int j = 2; j < num[i]; j++)
+                {
+                    if (num[i] % 2 == 0)
+                    {
+                        flag = false;
+                        break;
+                    }
+                }
+                if (flag)
+                {
+                    Console.WriteLine(num[i]);
+                }
             }
         }
     }
