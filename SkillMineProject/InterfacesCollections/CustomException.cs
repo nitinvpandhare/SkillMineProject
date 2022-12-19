@@ -25,7 +25,7 @@ namespace SkillMineProject.InterfacesCollections
         private string names;
         public  void AcceptNames(string names)
         {
-            if(names ==" ")
+            if(string.IsNullOrEmpty(names))
             {
                 throw new NmaesException("name is required");
             }
@@ -64,7 +64,7 @@ namespace SkillMineProject.InterfacesCollections
             Stud sn = new Stud();
             try
             {
-                sn.AcceptNames(" ");
+                sn.AcceptNames("nitin");
             }
             catch (Exception ex)
             {
