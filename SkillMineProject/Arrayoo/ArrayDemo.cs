@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillMineProject.Array
+namespace SkillMineProject.Arrayoo
 {
 
     //toggle

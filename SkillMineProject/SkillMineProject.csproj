@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>SkillMineProject.GenericCollections.Product0</StartupObject>
+	  <StartupObject>SkillMineProject.DelegatesAndEvents.EventandDelegateD</StartupObject>
   </PropertyGroup>
 
 </Project>
